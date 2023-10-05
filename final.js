@@ -1,5 +1,6 @@
 'use strict'
 
+
 // 指の合計本数期待値取得
 let totalFinger = "";
 
