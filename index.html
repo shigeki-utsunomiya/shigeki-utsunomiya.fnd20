@@ -9,51 +9,41 @@
   </head>
   
   <body>
-    <!-- <div> -->
-      <img src = "background.png" id="backgroundimg">
-      <h1>休憩中に＜指スマ＞ゲームをしよう！</h1>
-      <!-- How about playing a game during your break time? -->
-      <img src="down.png" id="yourhandleft" class="your left">
-      <img src="up.png" id="yourhandright" class="your right">
-      <img src = "up.png" id="myhandreft" class="my left">
-      <img src = "up.png" id="myhandright" class="my right">
-      <div class="cparea"><label id="cptitle">cpExpected</label>
-        <p><input type="number" id="cpexpected" value="0"></p>
+    <img src = "background.png" id="backgroundimg">
+    <h1>How about playing a game during your break time?</h1>
+    <img src="down.png" id="yourhandleft" class="your left">
+    <img src="down.png" id="yourhandright" class="your right">
+    <img src = "up.png" id="myhandleft" class="my left">
+    <img src = "up.png" id="myhandright" class="my right">
+    
+    <div class="cparea"><label id="cptitle">cpExpected</label>
+      <p><button type="button" id="cpexpected"></label></p>
       </div>
-
-    <!-- <form id="form"> -->
+      
+      
       <div class="myexpectedarea">
         <div id="myexpectedtitle">myExpected</div>
-          <button type="submit" class="totalbtn" value="0" id="myexpectedbtn0">0</button><br />
-          <button type="submit" class="totalbtn" value="1" id="myexpectedbtn1">1</button><br />
-          <button type="submit" class="totalbtn" value="2" id="myexpectedbtn2">2</button><br />
-          <button type="submit" class="totalbtn" value="3" id="myexpectedbtn3">3</button><br />
-          <button type="submit" class="totalbtn" value="4" id="myexpectedbtn4">4</button><br />
+        <button type="submit" class="totalbtn" value="0" id="myexpectedbtn0">0</button><br />
+        <button type="submit" class="totalbtn" value="1" id="myexpectedbtn1">1</button><br />
+        <button type="submit" class="totalbtn" value="2" id="myexpectedbtn2">2</button><br />
+        <button type="submit" class="totalbtn" value="3" id="myexpectedbtn3">3</button><br />
+        <button type="submit" class="totalbtn" value="4" id="myexpectedbtn4">4</button><br />
       </div>
-      
-      <div class="myactualarea">
-        <div id="myactualtitle">myActual</div>
-          <button type="submit" class="mybtn" value="0" id="myactualbtn0">0</button><br />
-          <button type="submit" class="mybtn" value="1" id="myactualbtn1">1</button><br />
-          <button type="submit" class="mybtn" value="2" id="myactualbtn2">2</button><br />
-      </div>
-        <div><button type="submit" id="startbtn">いっせーの、<br />せっ！</button></div>
-    <!-- </form> -->
-      <!-- <div class="square"><input type="number" value="3"><button>ワニ放出!</button></div> -->
+    
+    <div class="myactualarea">
+      <div id="myactualtitle">myActual</div>
+      <button type="submit" class="mybtn" value="0" id="myactualbtn0">0</button><br />
+      <button type="submit" class="mybtn" value="1" id="myactualbtn1">1</button><br />
+      <button type="submit" class="mybtn" value="2" id="myactualbtn2">2</button><br />
+    </div>
+    <div><button type="submit" id="startbtn">いっせーの、<br />せっ！</button></div>
+    
+    <div><label id="message"></label></div>
+    <button type="submit" id="againbtn">again</button>
+    <button type="submit" id="endbtn">end</button>
+    <button type="submit" id="youwinbtn">win</button>
+    <button type="submit" id="youlosebtn">lose</button>
 
-      <!-- <div class="btn-switch btn-switch-wrap">
-        <input type="checkbox" id="onoff" name="onoff" checked>
-        <div class="btn-switch-bg">
-          <label class="btn-switch-in" for="onoff">
-            <span class="on">ON</span>
-            <span class="off">OFF</span>
-          </label>
-        </div>
-      </div> -->
-
-
-      
-    <!-- </div> -->
     <script type="text/javascript" src="final.js"></script>
   </body>
 
