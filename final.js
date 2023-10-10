@@ -69,8 +69,8 @@ function getEvent() {
     img[1].src = imgArray[0];
     img[2].src = imgArray[0];
   } else if (cpFinger === 1) {
-    img[1].src = imgArray[0];
-    img[2].src = imgArray[1];
+    img[1].src = imgArray[1];
+    img[2].src = imgArray[0];
   } else {
     img[1].src = imgArray[1];
     img[2].src = imgArray[1];
@@ -79,8 +79,8 @@ function getEvent() {
     img[3].src = imgArray[0];
     img[4].src = imgArray[0];
   } else if (myFinger === 1) {
-    img[3].src = imgArray[0];
-    img[4].src = imgArray[1];
+    img[3].src = imgArray[1];
+    img[4].src = imgArray[0];
   } else {
     img[3].src = imgArray[1];
     img[4].src = imgArray[1];
