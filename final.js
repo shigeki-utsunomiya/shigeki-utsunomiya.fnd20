@@ -44,8 +44,8 @@ function getMyFinger(number) {
   //   img[2].src = imgArray[0];
   //   img[3].src = imgArray[0];
   // } else if (myFinger === "1") {
-  //   img[2].src = imgArray[0];
-  //   img[3].src = imgArray[1];
+  //   img[2].src = imgArray[1];
+  //   img[3].src = imgArray[0];
   // } else {
   //   img[2].src = imgArray[1];
   //   img[3].src = imgArray[1];
